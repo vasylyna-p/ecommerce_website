@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#"><img src="/img/logo.png" alt="logo image" class="logo"></a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-cart"><a href="cart.html"><img src="./img/icons/shopping-cart.svg" alt="cart icon" class="icon cart-icon"></a></li>
+            <a href="#" id="close">✖</a>
+        </ul>
+        <div id="mobile">
+            <a href="cart.html"><img src="./img/icons/shopping-cart.svg" alt="cart icon" class="icon cart-icon"></a>
+            <img src="./img/icons/hamburger-menu-icon.svg" alt="" class="icon" id="bar">
+        </div>
+    </nav>
+
+    <section id="product-details" class="section-p1">
+        <div class="single-product-image">
+            <img id="main-image" src="img/products/f1.jpg" width="100%" alt="">
+            <div class="small-image-group">
+                <div class="small-image-col">
+                    <img class="small-image" width="100%" src="/img/products/f1.jpg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img class="small-image" width="100%" src="/img/products/f2.jpg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img class="small-image" width="100%" src="/img/products/f3.jpg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img class="small-image" width="100%" src="/img/products/f4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-product-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T-Shirt</h4>
+            <h2>$139</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turning package.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="products-container">
+            <div class="product">
+                <img src="./img/products/n1.jpg" alt="shirt">
+                <div class="description">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><img src="./img/icons/shopping-cart.svg" alt="shopping cart icon" class="icon cart">
+                </a>
+            </div>
+            <div class="product">
+                <img src="./img/products/n2.jpg" alt="shirt">
+                <div class="description">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><img src="./img/icons/shopping-cart.svg" alt="shopping cart icon" class="icon cart">
+                </a>
+            </div>
+            <div class="product">
+                <img src="./img/products/n3.jpg" alt="shirt">
+                <div class="description">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><img src="./img/icons/shopping-cart.svg" alt="shopping cart icon" class="icon cart">
+                </a>
+            </div>
+            <div class="product">
+                <img src="./img/products/n4.jpg" alt="shirt">
+                <div class="description">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><img src="./img/icons/shopping-cart.svg" alt="shopping cart icon" class="icon cart">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">➔</a>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get e-mail updates about our latest shop and <span>special offers.</span</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email eddress">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Franscisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <img src="./img/icons/facebook-circle.svg" alt="" class="icon">
+                    <img src="./img/icons/twitter.svg" alt="" class="icon">
+                    <img src="./img/icons/Instagram-Icon-09hnmc.svg" alt="" class="icon">
+                    <img src="./img/icons/pinterest-logo-bold.svg" alt="" class="icon">
+                    <img src="./img/icons/YouTube-Icon-Almost-Black-Logo.wine.svg" alt="" class="icon">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="download on the app store">
+                <img src="./img/pay/play.jpg" alt="Download on the google play">
+            </div>
+            <p>Decured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2023 Cara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
