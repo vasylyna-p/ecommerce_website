@@ -11,7 +11,7 @@
 <body>
 
     <nav>
-        <a href="#"><img src="/img/logo.png" alt="logo image" class="logo"></a>
+        <a href="index.html"><img src="/img/logo.png" alt="logo image" class="logo"></a>
         <ul id="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
@@ -29,75 +29,26 @@
     </nav>
 
     <section id="page-header" class="about-header">
-        <h2>#let's_talk</h2>
-        <p>Leave a message, We would love to hear from you!</p>
+        <h2>#buy</h2>
+        <p>Add the items you want to buy.</p>
     </section>
 
     <section id="cart" class="section-p1">
-        <table width="100%">
-            <thead>
-                <tr>
-                    <td>Remove</td>
-                    <td>Image</td>
-                    <td>Product</td>
-                    <td>Price</td>
-                    <td>Quantity</td>
-                    <td>Subtotal</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#">✖</a></td>
-                    <td><img src="img/products/f1.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-                <tr>
-                    <td><a href="#">✖</a></td>
-                    <td><img src="img/products/f2.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-                <tr>
-                    <td><a href="#">✖</a></td>
-                    <td><img src="img/products/f3.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+        <h4 class="">Your shopping cart is empty.</h4>
+        <div class="cart-row hidden">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
 
-    <section id="cart-add" class="section-p1">
-        <div id="coupon">
-            <h3>Apply Coupon</h3>
-            <div><input type="text" placeholder="Enter Your Coupon">
-            <button class="normal">Apply</button>
         </div>
+        <div class="cart-total hidden">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
         </div>
-        <div id="subtotal">
-            <h3>Cart Totals</h3>
-            <table>
-                <tr>
-                    <td>Cart Subtotal</td>
-                    <td>$ 335</td>
-                </tr>
-                <tr>
-                    <td>Shipping</td>
-                    <td>Free</td>
-                </tr>
-                <tr>
-                    <td><b>Total</b></td>
-                    <td><b>$ 335</b></td>
-                </tr>
-            </table>
-            <button class="normal">Proceed to checkout</button>
+        <div>
+            <button type="button" class="btn btn-primary btn-purchase hidden">PURCHASE</button>
         </div>
     </section>
 
