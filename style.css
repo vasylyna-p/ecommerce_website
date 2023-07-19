@@ -584,68 +584,6 @@ footer .copyright {
     font-size: 27px;
 }
 
-/* Single Product */
-
-#product-details {
-    display: flex;
-    margin-top: 20px;
-}
-
-#product-details .single-product-image {
-    width: 40%;
-    margin-right: 50px;
-}
-
-.small-image-group {
-    display: flex;
-    justify-content: space-between;
-}
-
-.small-image-col {
-    flex-basis: 24%;
-    cursor: pointer;
-}
-
-#product-details .single-product-details {
-    width: 50%;
-    padding: 30px;
-}
-
-#product-details .single-product-details h4 {
-    padding: 40px 0 20px 0;
-}
-
-#product-details .single-product-details h4 {
-    font-size: 26px;
-}
-
-#product-details .single-product-details select {
-    display: block;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-}
-
-#product-details .single-product-details input {
-    width: 50px;
-    height: 47px;
-    padding-left: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-}
-
-#product-details .single-product-details input:focus {
-    outline: none;
-}
-
-#product-details .single-product-details button {
-    background-color: #088178;
-    color: #fff;
-}
-
-#product-details .single-product-details span {
-    line-height: 25px;
-}
-
 /* Blog Page */
 
 #page-header h2 {
@@ -989,131 +927,6 @@ footer .copyright {
     text-align: center;
 }
 
-/* #cart {
-    overflow-x: auto;
-}
-
-#cart table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    white-space: nowrap;
-}
-
-#cart table img {
-    width: 70px;
-}
-
-#cart table td:nth-child(1) {
-    width: 100px;
-    text-align: center;
-}
-
-#cart table td:nth-child(2) {
-    width: 150px;
-    text-align: center;
-}
-
-#cart table td:nth-child(3) {
-    width: 250px;
-    text-align: center;
-}
-
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6) {
-    width: 150px;
-    text-align: center;
-}
-
-#cart table td:nth-child(5) input {
-    width: 70px;
-    padding: 10px 5px 10px 15px;
-}
-
-#cart table thead {
-    border: 1px solid #e2e9e1;
-    border-left: none;
-    border-right: none;
-}
-
-#cart table thead td {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding: 18px 0;
-}
-
-#cart table tbody tr td {
-    padding-top: 15px;
-}
-
-#cart table tbody td {
-    font-size: 15px;
-}
-
-.remove-button {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    border: 1px solid #e2e9e1;
-    padding: 2px 6px;
-    border-radius: 50%;
-}
-
-#cart-add {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#coupon {
-    width: 50%;
-    margin-bottom: 30px;
-}
-
-#coupon h3, #total h3 {
-    padding-bottom: 15px
-}
-
-#coupon input {
-    padding: 10px 20px;
-    outline: none;
-    width: 60%;
-    margin-right: 10px;
-    border: 1px solid #e2e9e1;
-}
-
-#coupon button, #total button {
-    background-color: #088178;
-    color: #fff;
-    padding: 13px 22px;
-}
-
-#total {
-    width: 50%;
-    margin-bottom: 30px;
-    border: 1px solid #e2e9e1;
-    padding: 30px;
-}
-
-#total table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-#total table td {
-    width: 50%;
-    border: 1px solid #e2e9e1;
-    padding: 10px;
-    font-size: 13px;
-}
-
-#total .cart-total td {
-    font-size: 20px;
-} */
-
 /* Media Query */
 
 @media screen and (max-width: 1024px) {
@@ -1295,22 +1108,6 @@ footer .copyright {
         width: 100%;
     }
 
-    /* Single Product  */
-
-    #product-details {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #product-details .single-product-image {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-    #product-details .single-product-details {
-        width: 100%;
-    }
-
     /* Blog Page */
 
     #blog {
@@ -1377,18 +1174,4 @@ footer .copyright {
         width: 100%;
         margin-bottom: 30px;
     }
-
-    /* Cart Page */
-
-    /* #cart-add {
-        flex-direction: column;
-    }
-
-    #coupon, #total {
-        width: 100%;
-    }
-
-    #total {
-        padding: 20px;
-    } */
 }
